@@ -1,0 +1,26 @@
+#span_header {
+  font-size: 16px;
+  font-weight: 500;
+  color: #181818;
+}
+
+#h1_header {
+  font-size: 24px;
+  font-weight: 600;
+  color: #181818;
+}
+
+.main-content h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #F9F9F9;
+}
+
+#main-description {
+  font-size: 16px;
+  font-weight: 600;
+  color: #F9F9F9;
+  line-height: 180%;
+}
+
+/*# sourceMappingURL=variables.css.map */

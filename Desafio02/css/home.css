@@ -1,0 +1,56 @@
+#span_header {
+  font-size: 16px;
+  font-weight: 500;
+  color: #181818;
+}
+
+#h1_header {
+  font-size: 24px;
+  font-weight: 600;
+  color: #181818;
+}
+
+.main-content h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #F9F9F9;
+}
+
+#main-description {
+  font-size: 16px;
+  font-weight: 600;
+  color: #F9F9F9;
+  line-height: 180%;
+}
+
+#span-header {
+  background-color: #00AEFF;
+  text-align: center;
+  padding: 15px 58px;
+}
+
+#title-header {
+  text-align: center;
+  padding: 6px 127px;
+}
+
+#h1_header {
+  margin: 6px 0;
+}
+
+.main-bg {
+  width: 100%;
+  background: url(/images/wallpaper.jpeg) no-repeat center;
+  background-size: cover;
+  padding: 122px 37px 122px 20px;
+}
+
+.main-content h2, .main-content p {
+  text-align: left;
+}
+
+#main-description {
+  margin-top: 12px;
+}
+
+/*# sourceMappingURL=home.css.map */

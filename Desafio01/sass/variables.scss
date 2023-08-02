@@ -1,0 +1,54 @@
+// Brand Colours
+$brand-color:#574AE8;
+
+// Dark Scale
+$dark-100: #1A202C;
+$dark-70: #717171;
+$dark-20: #F3F5F7;
+$dark-10: #FFFFFF;
+
+// Color System
+$message: #2962FF;
+$success: #0BB07B;
+$warning: #FFCE52;
+$error: #F03D3D;
+$information: #E0E0E0;
+
+* {
+    font-weight: 400;
+}
+
+body {
+    background-color: $dark-20;
+}
+
+.title h1, .title h2 {
+    font-size: 18px;
+    color: $dark-10;
+}
+
+.search input {
+    background: rgba(255, 255, 255, 0.20);
+}
+
+input[type="search"]::placeholder {
+    color: $dark-10;
+    opacity: 0.5;
+}
+
+.card {
+    background-color: $dark-10;
+}
+
+.content-card span, .hero-card p {
+    font-size: 14px;
+    color: $dark-70;
+}
+
+.hero-card h3 {
+    font-size: 18px;
+}
+
+.hero-card p {
+    line-height: 26px;
+}

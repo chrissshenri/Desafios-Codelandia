@@ -1,0 +1,48 @@
+* {
+  font-weight: 400;
+}
+
+body {
+  background-color: #F3F5F7;
+}
+
+.title h1, .title h2 {
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.search input {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+input[type=search]::placeholder {
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+
+.card {
+  background-color: #FFFFFF;
+}
+
+.content-card span, .hero-card p {
+  font-size: 14px;
+  color: #717171;
+}
+
+.hero-card h3 {
+  font-size: 18px;
+}
+
+.hero-card p {
+  line-height: 26px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */

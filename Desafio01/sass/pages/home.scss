@@ -1,0 +1,88 @@
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 48px 20px;
+}
+
+
+// header
+header {
+    background: linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%);
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 28px 0 41px 0;
+}
+
+.search {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+
+form {
+    color: #555;
+    display: flex;  
+    padding: 2px;
+    border: 1px solid currentColor;
+    border-radius: 5px;
+    margin: 0;
+}
+
+input[type="search"] {
+    border: none;
+    background: transparent;
+    margin: 0;
+    padding: 7px 8px;
+    font-size: 14px;
+    color: inherit;
+    border: 1px solid transparent;
+    border-radius: inherit;
+}
+
+form.nosubmit {
+    border: none;
+    padding: 0;
+    width: 100%;
+}
+
+input.nosubmit {
+    border: 1px solid #555;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.20) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+    width: 100%;
+    padding: 12px 38px 11px 38px;
+    border-radius: 5px;
+    border: none;
+}
+
+#search {
+    width: 15px;
+    position: relative;
+    left: 25px;
+}
+
+
+// main
+.card {
+    padding: 16px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(19, 19, 31, 0.05);
+}
+
+.content-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 27px;
+}
+.card h3 {
+    margin-bottom: 9px;
+}

@@ -40,15 +40,29 @@ input[type="search"]::placeholder {
     background-color: $dark-10;
 }
 
-.content-card span, .hero-card p {
+.content-card span {
     font-size: 14px;
     color: $dark-70;
 }
 
 .hero-card h3 {
-    font-size: 18px;
+    font-size: 26px;
 }
 
 .hero-card p {
-    line-height: 26px;
+    font-size: 18px;
+    color: $dark-70;
+    line-height: 32px;
+}
+
+#heart-icon {
+    fill: #574ae801;
+    stroke: $brand-color;
+    stroke-width: 7;
+    transition: fill 0.3s;
+    cursor: pointer;
+}
+
+#heart-icon.filled, #heart-icon:hover {
+    fill: $brand-color;
 }

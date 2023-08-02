@@ -24,17 +24,31 @@ input[type=search]::placeholder {
   background-color: #FFFFFF;
 }
 
-.content-card span, .hero-card p {
+.content-card span {
   font-size: 14px;
   color: #717171;
 }
 
 .hero-card h3 {
-  font-size: 18px;
+  font-size: 26px;
 }
 
 .hero-card p {
-  line-height: 26px;
+  font-size: 18px;
+  color: #717171;
+  line-height: 32px;
+}
+
+#heart-icon {
+  fill: rgba(87, 74, 232, 0.0039215686);
+  stroke: #574AE8;
+  stroke-width: 7;
+  transition: fill 0.3s;
+  cursor: pointer;
+}
+
+#heart-icon.filled, #heart-icon:hover {
+  fill: #574AE8;
 }
 
 * {

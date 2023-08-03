@@ -18,13 +18,15 @@
 
 
 // main
+
+
 .main-bg {
     width: 100%;
-    background: url(/images/wallpaper.jpeg) no-repeat center;
+    background: url(/images/wallpaper.png) no-repeat center;
     background-size: cover;
     padding: 122px 37px 122px 20px;
+    z-index: 2;
 }
-
 
 .main-content h2, .main-content p {
     text-align: left;
@@ -32,4 +34,52 @@
 
 #main-description {
     margin-top: 12px;
+}
+
+#h3-hero {
+    margin: 50px 0 5px 0;
+    text-align: center;
+}
+
+#section-description {
+    text-align: center;
+    padding: 0 20px 0 20px;
+}
+
+
+// flex
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    background-color: $dark-30;
+    padding: 76px 62px;
+    max-width: 374px;
+}
+
+#first-item {
+    margin-top: 59px;
+}
+
+#last-item {
+    margin-bottom: 50px;
+}
+
+
+// footer
+.footer {
+    background-color: $brand-color;
+    padding: 13px 0;
+}
+
+#h3-footer {
+    text-align: center;
 }

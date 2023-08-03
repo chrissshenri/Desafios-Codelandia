@@ -23,6 +23,25 @@
   line-height: 180%;
 }
 
+#h3-hero {
+  font-size: 28px;
+  font-weight: 600;
+  color: #181818;
+}
+
+#section-description {
+  font-size: 16px;
+  font-weight: 500;
+  color: #474747;
+  line-height: 180%;
+}
+
+#h3-footer {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 35px;
+}
+
 #span-header {
   background-color: #00AEFF;
   text-align: center;
@@ -40,9 +59,10 @@
 
 .main-bg {
   width: 100%;
-  background: url(/images/wallpaper.jpeg) no-repeat center;
+  background: url(/images/wallpaper.png) no-repeat center;
   background-size: cover;
   padding: 122px 37px 122px 20px;
+  z-index: 2;
 }
 
 .main-content h2, .main-content p {
@@ -51,6 +71,50 @@
 
 #main-description {
   margin-top: 12px;
+}
+
+#h3-hero {
+  margin: 50px 0 5px 0;
+  text-align: center;
+}
+
+#section-description {
+  text-align: center;
+  padding: 0 20px 0 20px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  background-color: #EBE9EA;
+  padding: 76px 62px;
+  max-width: 374px;
+}
+
+#first-item {
+  margin-top: 59px;
+}
+
+#last-item {
+  margin-bottom: 50px;
+}
+
+.footer {
+  background-color: #00AEFF;
+  padding: 13px 0;
+}
+
+#h3-footer {
+  text-align: center;
 }
 
 /*# sourceMappingURL=home.css.map */

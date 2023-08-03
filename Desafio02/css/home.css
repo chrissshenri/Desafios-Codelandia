@@ -117,4 +117,29 @@
   text-align: center;
 }
 
+@media (min-width: 1024px) {
+  .container {
+    max-width: 100vw;
+  }
+  .main-bg {
+    padding-left: 100px;
+  }
+  #first-item, #last-item {
+    margin: 0;
+  }
+  .flex {
+    margin: 0 auto;
+  }
+  .hero {
+    margin-bottom: 65px;
+  }
+  .footer {
+    margin-top: 100px;
+  }
+  .main-content {
+    max-width: 100%;
+    width: 26%;
+  }
+}
+
 /*# sourceMappingURL=home.css.map */

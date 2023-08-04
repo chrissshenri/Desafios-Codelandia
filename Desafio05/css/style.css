@@ -18,6 +18,7 @@ button {
   font-weight: 900;
   text-transform: uppercase;
   line-height: 109%;
+  text-shadow: 2px 3px 1px #000000;
 }
 
 #description {
@@ -35,11 +36,29 @@ button {
   border-radius: 3px;
 }
 
+#btn2 {
+  background-color: transparent;
+  border: 2px solid #C2AACE;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  border-radius: 3px;
+}
+
 #btn1:hover {
   transform: skew(-10deg) translate(-3px, -3px);
   box-shadow: 5px 5px 13px rgba(0, 0, 0, 0.336);
 }
 
+#btn-play-now, #play {
+  transform: skew(10deg);
+}
+
+@media (min-width: 1440px) {
+  #btn2:hover {
+    background-color: #C2AACE;
+  }
+}
 body {
   overflow-y: hidden;
 }
@@ -48,13 +67,30 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 14px 0 26px 0;
+  padding: 14px 25px 26px 25px;
 }
 
 nav {
   display: flex;
   align-items: center;
-  gap: 25px;
+  gap: 5px;
+}
+
+nav a:after {
+  display: block;
+  content: "";
+  border-bottom: 2px solid #5162C1;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+
+nav a:hover:after {
+  transform: scaleX(1);
+}
+
+nav a:hover {
+  transform: translate(-2px, -2px);
+  transition: transform 0.4s;
 }
 
 .hero {
@@ -85,6 +121,55 @@ nav {
   display: none;
 }
 
+@media (min-width: 425px) {
+  nav {
+    gap: 15px;
+  }
+}
+@media (min-width: 768px) {
+  nav {
+    gap: 25px;
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    padding: 42px 85px;
+  }
+  .hero {
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    gap: 5px;
+  }
+  #description {
+    text-align: justify;
+    max-width: 90%;
+  }
+  .wallpaper img {
+    width: 450px;
+  }
+}
+@media (min-width: 1440px) {
+  .container {
+    padding: 52px 165px;
+  }
+  .wallpaper img {
+    width: 500px;
+  }
+  #btn2 {
+    display: inline-block;
+    transform: skew(-10deg);
+    transition-duration: 0.2s;
+    margin: 58px 0 0 0;
+    display: flex;
+    align-items: center;
+    padding: 8px 40px;
+    gap: 10px;
+  }
+  .btns {
+    display: flex;
+    gap: 10px;
+  }
+}
 * {
   margin: 0;
   padding: 0;

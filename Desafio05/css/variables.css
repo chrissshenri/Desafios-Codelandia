@@ -18,6 +18,7 @@ button {
   font-weight: 900;
   text-transform: uppercase;
   line-height: 109%;
+  text-shadow: 2px 3px 1px #000000;
 }
 
 #description {
@@ -35,9 +36,28 @@ button {
   border-radius: 3px;
 }
 
+#btn2 {
+  background-color: transparent;
+  border: 2px solid #C2AACE;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  border-radius: 3px;
+}
+
 #btn1:hover {
   transform: skew(-10deg) translate(-3px, -3px);
   box-shadow: 5px 5px 13px rgba(0, 0, 0, 0.336);
+}
+
+#btn-play-now, #play {
+  transform: skew(10deg);
+}
+
+@media (min-width: 1440px) {
+  #btn2:hover {
+    background-color: #C2AACE;
+  }
 }
 
 /*# sourceMappingURL=variables.css.map */

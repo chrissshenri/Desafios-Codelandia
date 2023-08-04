@@ -1,0 +1,108 @@
+* {
+  color: white;
+}
+
+button {
+  cursor: pointer;
+}
+
+#author {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.74px;
+}
+
+#title {
+  font-size: 56px;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 109%;
+}
+
+#description {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25.2px;
+}
+
+#btn1 {
+  background-color: #C2AACE;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  border-radius: 3px;
+}
+
+#btn1:hover {
+  transform: skew(-10deg) translate(-3px, -3px);
+  box-shadow: 5px 5px 13px rgba(0, 0, 0, 0.336);
+}
+
+body {
+  overflow-y: hidden;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 14px 0 26px 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#description {
+  margin: 55px 0 0 0;
+}
+
+#author {
+  margin: 6px 0 16px 0;
+}
+
+#btn1 {
+  transform: skew(-10deg);
+  transition-duration: 0.2s;
+  margin: 58px 0 0 0;
+  display: flex;
+  align-items: center;
+  padding: 8px 33px;
+  gap: 10px;
+}
+
+#btn2 {
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: rgb(81, 98, 193);
+  background: linear-gradient(327deg, rgb(81, 98, 193) 23%, rgb(194, 170, 206) 82%);
+  background-repeat: no-repeat;
+}
+
+.container {
+  max-width: 1444px;
+  margin: 0 auto;
+  padding: 0 25px 0 25px;
+}
+
+/*# sourceMappingURL=style.css.map */

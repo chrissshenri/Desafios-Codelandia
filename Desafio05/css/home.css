@@ -1,0 +1,46 @@
+body {
+  overflow-y: hidden;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 14px 0 26px 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#description {
+  margin: 55px 0 0 0;
+}
+
+#author {
+  margin: 6px 0 16px 0;
+}
+
+#btn1 {
+  transform: skew(-10deg);
+  transition-duration: 0.2s;
+  margin: 58px 0 0 0;
+  display: flex;
+  align-items: center;
+  padding: 8px 33px;
+  gap: 10px;
+}
+
+#btn2 {
+  display: none;
+}
+
+/*# sourceMappingURL=home.css.map */

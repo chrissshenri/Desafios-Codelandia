@@ -1,0 +1,22 @@
+@import 'variables.scss';
+@import 'home.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: rgb(81,98,193);
+    background: linear-gradient(327deg, rgba(81,98,193,1) 23%, rgba(194,170,206,1) 82%);
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 1444px;
+    margin: 0 auto;
+    padding: 0 25px 0 25px;
+}

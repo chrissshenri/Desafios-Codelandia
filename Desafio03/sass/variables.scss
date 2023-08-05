@@ -93,3 +93,27 @@ header {
 form {
     background-color: $brand-color-light;
 }
+
+#h2-form {
+    font-size: 32px;
+    color: $dark10;
+    font-weight: 400;
+    text-align: center;
+}
+
+input::placeholder, textarea {
+    font-size: 18px;
+    color: #6E7275BD;
+    font-weight: 400;
+}
+
+#btn-form {
+    max-width: 471px;
+    padding: 13px 0;
+    background-color: $brand-color;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: $dark40;
+}

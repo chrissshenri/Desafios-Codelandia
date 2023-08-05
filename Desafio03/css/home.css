@@ -53,4 +53,24 @@
   flex-direction: column;
 }
 
+#h2-form {
+  margin: 0 0 32px 0;
+}
+
+input, #message {
+  padding: 20px 240px 18px 11px;
+  border-radius: 5px;
+  border: none;
+}
+
+.inputs-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+textarea {
+  margin: 0 0 45px 0;
+}
+
 /*# sourceMappingURL=home.css.map */

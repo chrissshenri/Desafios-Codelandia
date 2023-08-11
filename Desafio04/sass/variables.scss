@@ -1,0 +1,58 @@
+@import 'home.scss';
+
+$bg-login-google: #1A202C;
+$brand-color-green: #04C35C;
+$brand-color-blue: #2B6CB0;
+
+$dark10: #2A2A2A;
+$dark20: #555555;
+$dark30: #F9F9F9;
+$dark40: #FFFFFF;
+
+
+#h2-content {
+    font-size: 16px;
+    color: $dark10;
+    font-weight: 400;
+}
+
+#h1-content {
+    font-size: 26px;
+    color: $dark10;
+    font-weight: 700;
+}
+
+#forget-password {
+    color: $brand-color-blue;
+}
+
+button {
+    font-size: 16px;
+    color: $dark40;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#enter-btn {
+    background-color: $brand-color-green;
+}
+
+#btn-google {
+    background-color: $bg-login-google;
+}
+
+#h4-account, #register {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#h4-account {
+    color: $dark10;
+}
+
+#register {
+    color: $brand-color-blue;
+    text-decoration: none;
+}

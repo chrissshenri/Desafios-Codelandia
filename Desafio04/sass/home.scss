@@ -1,0 +1,109 @@
+// bg
+.bg {
+    display: none;
+}
+
+// main
+.hero-content {
+    padding: 71px 33px 52px 33px;
+    display: flex;
+    flex-direction: column;
+}
+
+#h1-content {
+    margin: 7px 0 39px 0;
+}
+
+.login-options {
+    display: flex;
+    align-items: center;
+    gap: 94px;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+input {
+    padding: 17px 0 17px 20px;
+    max-width: 350px;
+}
+
+.checkbox-login {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    margin: 28px 0 0 0;
+}
+
+#radio {
+    cursor: pointer;
+}
+
+#remember-me {
+    font-size: 14px;
+    min-width: 95px;
+}
+
+#forget-password {
+    font-size: 14px;
+    margin: 28px 0 0 0;
+}
+
+.btns-login {
+    display: flex;
+    flex-direction: column;
+    margin: 26px 0 138px 0;
+    gap: 15px;
+}
+
+button {
+    padding: 15px 0;
+    max-width: 350px;
+}
+
+#btn-google {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+}
+
+#h4-account {
+    text-align: center;
+}
+
+@media (min-width: 340px) {
+    .login-options {
+        max-width: 340px;
+    }
+}
+
+@media (min-width: 768px) {
+    .hero-content {
+        align-items: center;
+    }
+}
+
+@media (min-width: 1440px) {
+    .bg {
+        display: inline-block;
+        margin: 0;
+    }
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-content {
+        padding: 213px 110px 50px 193px;
+        align-items: flex-start;
+    }
+    
+    section {
+        min-height: 883px;
+        background-color: #F7FAFC;
+    }
+}
